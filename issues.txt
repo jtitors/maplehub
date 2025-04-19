@@ -1,0 +1,24 @@
+- title: Setup project structure
+  body: Initialize Git repo, set up .gitignore, and configure GitHub Actions.
+  labels: setup
+
+- title: Implement Discord OAuth2 authentication
+  body: Use Discord OAuth2 for user authentication and link users to our database.
+  labels: auth
+
+- title: Database setup & migrations
+  body: Set up PostgreSQL database, create users table, and manage migrations.
+  labels: database
+
+- title: API for character fetching
+  body: Fetch character data from MapleStory rankings API and store relevant info in the database.
+  labels: api
+
+- title: Frontend: Implement login page
+  body: Design and implement a login page with Discord OAuth2.
+  labels: frontend
+
+- title: Market tracking integration
+  body: Use the Steam Market API to track MapleStory items and display their current prices.
+  labels: market
+
